@@ -1,0 +1,24 @@
+.sidebarWrapper {
+    padding: .5rem 1.8rem .5rem 1.2rem;
+    border: 2px solid red;
+    height: calc(100vh - 57.6px);
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar {
+    overflow-y: scroll;
+    border: 1px solid aqua;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    max-height: 100%;
+
+
+}
+
+/* .sidebar>* {
+    padding: .2rem .6rem;
+} */

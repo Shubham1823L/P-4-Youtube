@@ -11,10 +11,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className='heroWrapper'>
-        {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint cupiditate qui ab voluptates voluptate, aspernatur repudiandae voluptatem enim laudantium nam a mollitia magnam tenetur distinctio! Error voluptatem minima possimus sequi */}
+      {/* <div className='heroWrapper'>
         <Sidebar />
-      </div>
+      </div> */}
 
     </>
   )

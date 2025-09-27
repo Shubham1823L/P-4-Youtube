@@ -1,0 +1,118 @@
+/* Css Reset */
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after,
+input,
+select,
+button {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  all: unset;
+}
+
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/* Utility Styling */
+.cursor {
+  cursor: pointer;
+}
+
+/* General Styling */
+
+:root {
+  color-scheme: light dark;
+
+  --clr-primary-900: light-dark(white, #0F0F0F);
+  --clr-primary-700: light-dark(#F2F2F2, #222222);
+  --clr-primary-focus-600: light-dark(#D9D9D9, #3D3D3D);
+  --clr-primary-hover-600: light-dark(#E5E5E5, #3F3F3F);
+  --clr-primary-hover-400: rgba(255, 255, 255, 0.1);
+  --clr-border-primary-900: light-dark(#c6c6c6, hsl(0, 0%, 18.82%));
+
+  --clr-focus-blue: #1D62B9;
+  --ff-roboto: "Roboto";
+}
+
+*,
+*::before,
+*::after {
+  font-family: var(--ff-roboto);
+}
+
+body {
+  background-color: var(--clr-primary-900);
+  max-height: 100vh;
+}
+
+ul {
+  list-style: none
+}
+
+button,
+a {
+  cursor: pointer;
+  transition: all .15s ease-in-out;
+}
+
+/* Actual Styling */
+.heroWrapper {
+  position: relative;
+  border: 1px solid green;
+}
